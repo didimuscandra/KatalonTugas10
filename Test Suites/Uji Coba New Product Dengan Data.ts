@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description>Dengan data excel 10 buah (8 true, 2false)</description>
+   <name>Uji Coba New Product Dengan Data</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <testSuiteGuid>d2dbfbeb-3479-4ca6-bfb5-6472885db3d9</testSuiteGuid>
+   <testCaseLink>
+      <guid>4ed471cf-6bf1-4960-8ff9-467f513742f8</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Test New Product Variable</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>12d430b7-19a6-4045-a7d7-ebafab03c00e</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>05821920-56d8-46cf-93bc-2d44563feade</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>e12bc376-4fe8-4ce5-a451-b0f229807eb9</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>20e2968c-fe0a-4e64-aa35-f6fb97b5e094</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>87a692fe-7c93-4cc3-98c6-9b411cea0089</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Test New Product Variable</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>3f4dfb05-fdf8-4706-8443-e7f669130d6d</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Data Login Toko Buah</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>3f4dfb05-fdf8-4706-8443-e7f669130d6d</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>product</value>
+         <variableId>12d430b7-19a6-4045-a7d7-ebafab03c00e</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>3f4dfb05-fdf8-4706-8443-e7f669130d6d</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>price</value>
+         <variableId>05821920-56d8-46cf-93bc-2d44563feade</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>3f4dfb05-fdf8-4706-8443-e7f669130d6d</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>description</value>
+         <variableId>e12bc376-4fe8-4ce5-a451-b0f229807eb9</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>3f4dfb05-fdf8-4706-8443-e7f669130d6d</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>date</value>
+         <variableId>20e2968c-fe0a-4e64-aa35-f6fb97b5e094</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>
